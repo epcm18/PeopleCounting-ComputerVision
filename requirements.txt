@@ -1,0 +1,6 @@
+openCV
+Yolov8
+pandas
+ultralytics
+numpy
+cvzone
