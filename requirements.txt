@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 openCV
 Yolov8
 pandas
 ultralytics
 numpy
+=======
+openCV
+Yolov8
+pandas
+ultralytics
+numpy
+>>>>>>> 8010ff6dc86dd15197f1a996f3df50dd641eafe5
 cvzone
