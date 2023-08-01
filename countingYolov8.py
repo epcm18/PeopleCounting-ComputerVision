@@ -18,7 +18,12 @@ cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
 cap=cv2.VideoCapture('3.mp4')
 
-file = open('objects.txt', 'r')
+# fourcc = cv2.VideoWriter_fourcc(*'avc1')
+# out = cv2.VideoWriter('output.avi',fourcc, 5, (640,480))
+
+output = cv2.VideoWriter('output_final.avi',cv2.VideoWriter_fourcc(*'MPEG'),30,(1020,500))
+
+file = open('coco.names', 'r')
 data = file.read()
 class_list = data.split('\n')
 
@@ -113,6 +118,7 @@ while True:
     
     cvzone.putTextRect(frame, f'Down: {downcount}', (50,60), 2,2)
     cvzone.putTextRect(frame, f'Up: {upcount}', (50,160), 2,2)
+    output.write(frame)
     cv2.imshow('RGB', frame)
     if cv2.waitKey(1) & 0xff==27:
         break
