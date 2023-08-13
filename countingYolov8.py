@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from tracker import*
 import cvzone
 
-url = "http://10.10.7.148:8080/video"
+url = "#########################################/video"
 
 model=YOLO('yolov8s.pt')
 
