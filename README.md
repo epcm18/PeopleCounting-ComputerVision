@@ -74,8 +74,5 @@ Contributions to this real-time people counting system are welcome. If you have 
 
 When contributing to this repository, please first discuss the changes you wish to make by opening an issue. 
 
-## License
-
-[MIT License](LICENSE)
 
 
