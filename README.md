@@ -25,8 +25,8 @@ To use the real-time people counting system, follow these steps to set up the en
 
 1. Clone this GitHub repository to your local machine:
 
-   \`git clone https://github.com/epcm18/PeopleCounting-ComputerVision.git\`
-   \`cd PeopleCounting-ComputerVisiony\`
+   \`git clone https://github.com/epcm18/PeopleCounting-ComputerVision.git`
+   
 
 2. Install the required dependencies. It is recommended to create a virtual environment before installing the dependencies:
 
