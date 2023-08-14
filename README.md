@@ -1,7 +1,8 @@
 
 # Real-Time People Counting System with YOLOv8 and OpenCV
 
-![People Counting](path_to_image)
+
+![People Counting](https://github.com/epcm18/PeopleCounting-ComputerVision/assets/104779449/9b33bba6-c9ce-4144-b90d-3e294a655b96)
 
 This repository contains the code for a real-time people-counting system using YOLOv8 and OpenCV. The system utilizes YOLOv8, a state-of-the-art object detection algorithm, to detect people in images and videos. Additionally, it includes a custom class that can be used for detecting people without relying on YOLOv8.
 
